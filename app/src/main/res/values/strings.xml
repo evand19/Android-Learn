@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Android learn</string>
+    <string name="title_activity_login">login</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password2">Password Again</string>
+    <string name="hint_name">Fullname</string>
+    <string name="hint_oldpassword">Old Password</string>
+    <string name="hint_newpassword">New Password</string>
+    <string name="hint_confirmnewpassword">New Password Again</string>
+    <string name="search_hint">Search . . .</string>
+
+    <string name="hint_err_email">Please provide a valid email address!</string>
+    <string name="hint_err_phone">Please provide a valid Phone Number!</string>
+    <string name="hint_err_address">Please provide a valid address!</string>
+    <string name="hint_err_password">Password must be at least 6 characters long!</string>
+    <string name="hint_err_password2">Your password verification doesn\'t match!</string>
+    <string name="hint_err_name">Name must be at least 6 characters long!</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_change_password">CHANGE PASSWORD</string>
+    <string name="btn_change_details">CHANGE DETAILS</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_register">register</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_account">Account</string>
+    <string name="nav_item_help_feedback">Help &amp; Feedback</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_account</item>
+        <item>@string/nav_item_history</item>
+        <item>@string/nav_item_help_feedback</item>
+    </string-array>
+
+    <string name="title_history">History</string>
+    <string name="title_account">Account</string>
+    <string name="title_home">Home</string>
+    <string name="title_help_feedback">Help &amp; Feedback</string>
+    <string name="title_product1">Product 1</string>
+    <string name="title_product2">Product 2</string>
+    <string name="title_product3">Product 3</string>
+    <string name="title_product4">Product 4</string>
+</resources>

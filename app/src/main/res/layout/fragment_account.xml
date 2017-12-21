@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sastroman.angga.androidlearn.view.FragmentFeedback">
+
+    <FrameLayout
+        android:id="@+id/FLF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ivf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_report_image" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/LLD"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="1dp"
+                android:src="@drawable/background"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:src="@drawable/ic_action_camera" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="name"
+            android:textColor="@color/lbl_name"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="phone"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            tools:text="address" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btcp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/btn_logut_bg"
+                android:text="@string/btn_change_password"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btcd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@color/btn_logut_bg"
+                android:text="@string/btn_change_details"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvcp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:autoText="false"
+            android:text="Change Password"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pwold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/pwold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_oldpassword"
+                android:inputType="textPassword"
+                android:maxLength="25"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pwnew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/pwnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_newpassword"
+                android:inputType="textPassword"
+                android:maxLength="25"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_pwconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/pwconfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_confirmnewpassword"
+                android:inputType="textPassword"
+                android:maxLength="25"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btccp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_change_password"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLCD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:autoText="false"
+            android:text="Change Details"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:maxLength="25"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_cadress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/caddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_address"
+                android:inputType="textPersonName"
+                android:maxLength="45"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_cphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/hint_phone"
+                android:inputType="textPersonName"
+                android:maxLength="13"
+                android:padding="5dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btccd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_change_details"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btcancel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

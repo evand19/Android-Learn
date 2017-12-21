@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#083455</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#82c7f9</color>
+
+    <color name="bg_login">#125688</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="redPrimary">#ea2757</color>
+    <color name="redPrimaryDark">#FFAE262D</color>
+    <color name="redAccent">#FFE77F8A</color>
+
+    <color name="bluePrimary">#FF2798EA</color>
+    <color name="bluePrimaryDark">#0d64a3</color>
+    <color name="blueAccent">#90c6ed</color>
+
+    <color name="greenPrimary">#FF4EEA27</color>
+    <color name="greenPrimaryDark">#FF25860D</color>
+    <color name="greenAccent">#FF93DA82</color>
+
+    <color name="magentaPrimary">#FFBF27EA</color>
+    <color name="magentaPrimaryDark">#FF710E8D</color>
+    <color name="magentaAccent">#FFDA95EE</color>
+</resources>

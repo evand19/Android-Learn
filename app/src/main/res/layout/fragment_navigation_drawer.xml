@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/textColorPrimary">
+
+
+    <LinearLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ppic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="1dp"
+                android:src="@drawable/background"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fl"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nav_header_container" />
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_logout"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </FrameLayout>
+
+
+</RelativeLayout>

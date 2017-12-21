@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RL"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.infotech.angga.androidlearn.SplashActivity">
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/FL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LL"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/eye"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/splash_screen_progress_bar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LL"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" />
+</RelativeLayout>
