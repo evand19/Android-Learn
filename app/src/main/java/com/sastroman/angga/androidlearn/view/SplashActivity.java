@@ -1,7 +1,9 @@
-package com.infotech.angga.androidlearn;
+package com.sastroman.angga.androidlearn.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.sastroman.angga.androidlearn.R;
 
 public class SplashActivity extends AppCompatActivity {
 
