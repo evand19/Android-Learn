@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.view.addon;
 
 /**
- * Created by User on 12/20/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 public class RecylcerViewHeader {
     //    More fields can be defined here after your need

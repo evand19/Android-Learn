@@ -3,8 +3,9 @@
 package com.sastroman.angga.androidlearn.view;
 
 /**
- * Created by User on 12/13/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
         import android.app.Activity;
         import android.graphics.drawable.ColorDrawable;

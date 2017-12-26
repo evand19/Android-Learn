@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.adapter;
 
 /**
- * Created by Angga N P on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -19,10 +20,6 @@ import com.sastroman.angga.androidlearn.model.Movie;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by Angga N P on 12/19/2017.
- */
 
 public class MoviesAdapterGrid extends RecyclerView.Adapter<MoviesAdapterGrid.MovieViewHolder> implements Filterable {
 

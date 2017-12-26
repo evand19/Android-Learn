@@ -2,8 +2,9 @@ package com.sastroman.angga.androidlearn.adapter;
 
 
 /**
- * Created by User on 12/11/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 
 import android.content.Context;

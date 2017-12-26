@@ -4,6 +4,7 @@ package com.sastroman.angga.androidlearn.view;
  * Created by Angga N P on 12/13/2017.
  */
 
+
 import android.app.SearchManager;
 import android.content.Context;
 import android.graphics.Rect;

@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.rest;
 
 /**
- * Created by User on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

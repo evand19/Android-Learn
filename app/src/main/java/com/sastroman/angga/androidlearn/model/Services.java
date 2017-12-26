@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.model;
 
 /**
- * Created by Angga Nova P on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 import com.google.gson.annotations.SerializedName;
 

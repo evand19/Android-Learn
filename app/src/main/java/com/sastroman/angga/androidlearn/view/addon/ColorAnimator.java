@@ -7,8 +7,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 
 /**
- * Created by User on 12/18/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 public class ColorAnimator {
 

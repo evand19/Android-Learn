@@ -1,15 +1,15 @@
 package com.sastroman.angga.androidlearn.app;
 
+/**
+ * Created by Angga N P on 12/13/2017.
+ */
+
 import android.app.Application;
 import android.text.TextUtils;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
-
-/**
- * Created by User on 12/11/2017.
- */
 
 
 public class AppController extends Application {

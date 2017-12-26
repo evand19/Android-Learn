@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.view.addon;
 
 /**
- * Created by User on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 public class RecycleViewHeader {
     //    More fields can be defined here after your need

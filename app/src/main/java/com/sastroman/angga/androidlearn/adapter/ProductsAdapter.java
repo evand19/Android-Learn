@@ -1,8 +1,9 @@
 package com.sastroman.angga.androidlearn.adapter;
 
 /**
- * Created by User on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
+
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

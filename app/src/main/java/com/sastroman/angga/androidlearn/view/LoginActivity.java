@@ -1,5 +1,9 @@
 package com.sastroman.angga.androidlearn.view;
 
+/**
+ * Created by Angga N P on 12/13/2017.
+ */
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

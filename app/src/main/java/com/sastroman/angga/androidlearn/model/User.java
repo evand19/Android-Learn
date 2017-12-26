@@ -1,10 +1,11 @@
 package com.sastroman.angga.androidlearn.model;
 
+/**
+ * Created by Angga N P on 12/13/2017.
+ */
+
 import com.google.firebase.database.IgnoreExtraProperties;
 
-/**
- * Created by User on 12/26/2017.
- */
 
 @IgnoreExtraProperties
 public class User {

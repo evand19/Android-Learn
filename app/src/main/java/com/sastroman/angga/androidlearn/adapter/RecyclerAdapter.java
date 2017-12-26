@@ -1,5 +1,9 @@
 package com.sastroman.angga.androidlearn.adapter;
 
+/**
+ * Created by Angga N P on 12/13/2017.
+ */
+
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,9 +14,6 @@ import com.sastroman.angga.androidlearn.R;
 
 import java.util.List;
 
-/**
- * Created by User on 12/19/2017.
- */
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     //added view types
     private static final int TYPE_HEADER = 2;

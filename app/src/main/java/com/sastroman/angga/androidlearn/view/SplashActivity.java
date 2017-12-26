@@ -1,5 +1,9 @@
 package com.sastroman.angga.androidlearn.view;
 
+/**
+ * Created by Angga N P on 12/13/2017.
+ */
+
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;

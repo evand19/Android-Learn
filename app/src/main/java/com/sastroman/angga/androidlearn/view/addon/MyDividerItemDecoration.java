@@ -1,9 +1,8 @@
 package com.sastroman.angga.androidlearn.view.addon;
 
 /**
- * Created by User on 12/19/2017.
+ * Created by Angga N P on 12/13/2017.
  */
-
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -15,10 +14,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.View;
-
-/**
- * Created by ravi on 17/11/17.
- */
 
 public class MyDividerItemDecoration  extends RecyclerView.ItemDecoration {
 
